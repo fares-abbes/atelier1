@@ -1,0 +1,71 @@
+<html></html>
+<head>
+    <title>Formulaire</title>
+</head>
+<body>
+<header></header>
+<content>
+    <fieldset>
+        <fieldset style="align.center">
+        <legend style ="color:red">Inscription</legend>
+        <form action="" method="">
+        <label>Nom**:</label>
+        <input type="text" pattern=[A-Za-z]+" title="que des letters"><br>
+         <label>Prenom:</label><input type="text"><br>
+        <label>CIN**</label><!--input type="number" min="1" max="8" pattern="{8}"-->
+        <input type="text=" pattern="[0-9]{8}" required><br>
+        <label>Email</label><input type="text" placeholder="@esprit.tn"><br>
+        <label>PWD</label><input type="password"><br>
+        <u1>Niveau:
+            <li>Master<input type="checkbox"></li>
+            <li>License<input type="checbox"></li>
+            <li>Ingenieur<input type="checkbox"></li>
+            <li>Bac<input type="checkbox" checked></li>
+        </u1>
+        <label>Genre</label>
+        Male<input type="radio" name="g" value="m">
+        Female<input type="radio" name="g" value="f">
+        <br>
+        <label>Date de naissance</label><input type="date" min="01/01/2022"><br>
+        <label>Gouvernorat</label>
+        <select multiple>
+            <option>Tunis</option>
+            <option>Manouba</option>
+            <option selected>Monastir</option>
+            <option>Ariana</option>
+        </select>
+        <br>
+        <label>Hobbies</label>
+        <select>
+            <optgroup label="Musique">Musique
+            <option>Guitar</option>
+            <option>Piano</option>
+            </optgroup>
+            <br>
+            <optgroup label="Sport">
+                 <option>Football</option>
+                 <option>tennis</option>
+                 <option>volleyball</option>
+                 <option>handball</option>
+            </optgroup>
+        </select>
+         <br>
+            <label>Image</label><input type="file"><br>
+            <label>Couleur</label><input type="color"><br>
+            <label>Linkedin</label><input type="url"><br>
+
+
+
+
+        <!--Appliquer javaScript-->
+        <input type="button" value="s'inscrire" onclick="">
+        <!---->
+        <button>s'inscrire</button>
+        <input type="submit" value="s'inscrire-submit">
+        </form>
+        
+    </fieldset>
+</content>
+<footer></footer>
+</body>
+</html>
